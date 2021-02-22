@@ -5,7 +5,7 @@ class Calculation {
         this.op = op;
     }
     GetResults() {
-        return this.a + this.b;
+        return this.op(this.a, this.b);
     }
 }
 
